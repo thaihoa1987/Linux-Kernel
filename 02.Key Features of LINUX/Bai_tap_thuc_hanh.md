@@ -48,10 +48,9 @@ Bài tập:
 	
 -----
 
-manage_threads_in_linux.c
+[`manage_threads_in_linux.c`](manage_threads_in_linux.c)
 ![This is result of compiling & running manage_threads_in_linux.c](5.pthread.png)
 
-[`manage_threads_in_linux.c`](manage_threads_in_linux.c)
 
 ### Lập trình với Preemptive Scheduling ### 
 Bài tập:
@@ -66,7 +65,5 @@ Bài tập:
 	
 -----
 
-preemptive_scheduling.c
-![This is result of compiling & running preemptive_scheduling.c](6.preemptive-scheduling.png)
-
 [`preemptive_scheduling.c`](preemptive_scheduling.c)
+![This is result of compiling & running preemptive_scheduling.c](6.preemptive-scheduling.png)
