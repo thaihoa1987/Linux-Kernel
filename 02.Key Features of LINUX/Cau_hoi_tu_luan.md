@@ -67,11 +67,17 @@ __Network sockets__: bash sử dụng /dev/tcp/$host/$port để xác định TC
 __Others__: Standard input cũng là 1 file và được quy định là /dev/stdin, tương tự cho standard output.
         Đọc từ /dev/zero sẽ được zeros, và từ /dev/random sẽ được high-quality random numbers.
 		
-		
-		
-		
-		
-		
+(c)
+ls -l /dev
+![This is result of ls -l /dev]("2.ls -l dev.PNG" "ls -l /dev")
+
+cat /proc/cpuinfo
+![This is result of cat /proc/cpuinfo]("2.cat proc cpuinfo.PNG" "cat /proc/cpuinfo")
+	
+echo "Test" > /dev/null
+![This is result of echo "Test" > /dev/null]("2.echo dev null.PNG" "echo "Test" > /dev/null")
+
+
 ### Bài 3: Cách Linux thực hiện Preemptive Multitasking ###
 Đề bài:
 * Giải thích Preemptive Multitasking là gì.
@@ -111,3 +117,7 @@ Key Features of CFS
 CFS Implementation
 * Red-Black Tree: A self-balancing binary search tree để dễ lựa chọn task dựa trên vruntime.
 * Runqueue: Hàng đợi để các task được phép tiếp cận CPU.
+
+(c)
+ps -eo pid,pri,ni,cmd
+![This is result of ps -eo pid,pri,ni,cmd]("3.ps eo pid pri.PNG" "ps -eo pid,pri,ni,cmd")
