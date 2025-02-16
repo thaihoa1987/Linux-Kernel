@@ -120,4 +120,4 @@ CFS Implementation
 
 (c)
 ps -eo pid,pri,ni,cmd
-![This is result of ps -eo pid,pri,ni,cmd]("3.ps-eo-pid-pri.png")
+![This is result of ps -eo pid,pri,ni,cmd](3.ps-eo-pid-pri.png)
