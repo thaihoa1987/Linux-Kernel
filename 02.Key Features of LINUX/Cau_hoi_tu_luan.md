@@ -69,13 +69,13 @@ __Others__: Standard input cũng là 1 file và được quy định là /dev/st
 		
 (c)
 ls -l /dev
-![This is result of ls -l /dev]("2.ls -l dev.PNG" "ls -l /dev")
+![This is result of ls -l /dev](2.ls-l-dev.png)
 
 cat /proc/cpuinfo
-![This is result of cat /proc/cpuinfo]("2.cat proc cpuinfo.PNG" "cat /proc/cpuinfo")
+![This is result of cat /proc/cpuinfo](2.cat-proc-cpuinfo.png)
 	
 echo "Test" > /dev/null
-![This is result of echo "Test" > /dev/null]("2.echo dev null.PNG" "echo "Test" > /dev/null")
+![This is result of echo "Test" > /dev/null](2.echo-dev-null.png)
 
 
 ### Bài 3: Cách Linux thực hiện Preemptive Multitasking ###
@@ -120,4 +120,4 @@ CFS Implementation
 
 (c)
 ps -eo pid,pri,ni,cmd
-![This is result of ps -eo pid,pri,ni,cmd]("3.ps eo pid pri.PNG" "ps -eo pid,pri,ni,cmd")
+![This is result of ps -eo pid,pri,ni,cmd]("3.ps-eo-pid-pri.png")
